@@ -1,0 +1,6 @@
+{
+  "databasePath": "data/cache.db",
+  "modelDirectory": "models/sensevoice",
+  "ffmpegPath": "runtime/ffmpeg/ffmpeg.exe",
+  "workDirectory": "work/launcher"
+}

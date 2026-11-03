@@ -1,0 +1,29 @@
+{
+  "name": "chataudiotranscriber",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Local offline voice transcription post-processor for QCE and WeFlow exports",
+  "engines": {
+    "node": "24.21.0"
+  },
+  "dependencies": {
+    "parse5": "8.0.0",
+    "sherpa-onnx-node": "2.0.1",
+    "silk-wasm": "3.7.1"
+  },
+  "license": "GPL-3.0-only",
+  "author": "Bowode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bowode/ChatAudioTranscriber.git"
+  },
+  "homepage": "https://github.com/Bowode/ChatAudioTranscriber#readme",
+  "bugs": {
+    "url": "https://github.com/Bowode/ChatAudioTranscriber/issues"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node launcher.mjs"
+  }
+}

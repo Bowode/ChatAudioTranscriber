@@ -1,0 +1,44 @@
+{
+  "release": "sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17",
+  "sourceUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17.tar.bz2",
+  "releaseAssetId": 288366523,
+  "archiveBytes": 163002883,
+  "verifiedAt": "2026-10-31T05:24:41.492Z",
+  "verification": "Existing files compared byte-for-byte with the freshly downloaded official release archive; all identical. No model files replaced.",
+  "files": [
+    {
+      "name": "model.int8.onnx",
+      "bytes": 239233841,
+      "officialBytes": 239233841,
+      "byteIdentical": true
+    },
+    {
+      "name": "tokens.txt",
+      "bytes": 315894,
+      "officialBytes": 315894,
+      "byteIdentical": true
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 71,
+      "officialBytes": 71,
+      "byteIdentical": true
+    },
+    {
+      "name": "README.md",
+      "bytes": 104,
+      "officialBytes": 104,
+      "byteIdentical": true
+    },
+    {
+      "name": "export-onnx.py",
+      "bytes": 5905,
+      "officialBytes": 5905,
+      "byteIdentical": true
+    }
+  ],
+  "modelType": "sense_voice_ctc",
+  "modelMetadataVersion": "2",
+  "runtime": "sherpa-onnx-node@2.0.1",
+  "licenseFile": "LICENSE"
+}
